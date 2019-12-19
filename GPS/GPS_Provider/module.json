@@ -1,0 +1,33 @@
+{
+  "name": "GPSProvider",
+  "version": "1.0.0",
+  "description": "An extension of original API (https://os.mbed.com/teams/components/code/GPSProvider/) for working with GPS devices.",
+  "keywords": [
+    "GPS",
+    "GNSS",
+    "mbed",
+    "mbed-official"
+  ],
+  "author": "Andrea Palmieri",
+  "repository": {
+    "url": "os.mbed.com/teams/ST/code/GPS_Provider/",
+    "type": "hg"
+  },
+  "homepage": "https://os.mbed.com/teams/ST/code/GPS_Provider/",
+  "licenses": [
+    {
+      "url": "https://spdx.org/licenses/Apache-2.0",
+      "type": "Apache-2.0"
+    }
+  ],
+  "dependencies": {},
+  "targetDependencies": {
+    "X-NUCLEO-GNSS1A1": {
+      "X_NUCLEO_GNSS1A1": "^1.0.0"
+    },
+    "mbed-os": {
+      "mbed-os": "^5.11.4",
+      "compiler-polyfill": "^1.2.1"
+}
+  }
+}
