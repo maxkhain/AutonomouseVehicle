@@ -1,3 +1,6 @@
+#pragma once
+#ifndef _WDG_H    /* Guard against multiple inclusion */
+#define _WDG_H  
 
 
 #include "mbed.h"
@@ -25,3 +28,4 @@ public:
 
 
 };
+#endif 

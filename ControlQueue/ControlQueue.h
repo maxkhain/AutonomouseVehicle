@@ -1,22 +1,22 @@
 #pragma once
-#ifndef _MESSAGEQUEUE_H    /* Guard against multiple inclusion */
-#define _MESSAGEQUEUE_H  
+#ifndef _CONTROLQUEUE_H    /* Guard against multiple inclusion */
+#define _CONTROLQUEUE_H  
 
 #include "Message.h"
 #include "Logger.h"
 #include "rtos.h"
 
-/**MessageQueue
+/**ControlQueue
 
-@note this is a static queue for the messageQueue that we are using in the main
+@note this is a static queue for the ControlQueue that we are using in the main
 
 
 */
 
-class MessageQueue {
+class ControlQueue {
 private:
     
-    static Queue<Message, 16> message_queue;
+    static Queue<Message, 16> control_queue;
     
 public:
     static int queue_counter;

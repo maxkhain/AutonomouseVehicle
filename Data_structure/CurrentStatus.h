@@ -2,6 +2,16 @@
 #ifndef _CURRENTSTATUS_H    /* Guard against multiple inclusion */
 #define _CURRENTSTATUS_H  
 
+/**Status
+
+@param <speed>  
+@param <angle>
+
+
+
+*/
+
+
 class Status {
 private:
 	double angle;

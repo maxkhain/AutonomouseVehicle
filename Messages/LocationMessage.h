@@ -6,9 +6,9 @@
 #include "GPSApi.h"
 #include "SendHomeMessage.h"
 #include "AutonomousEnvironment.h"
-#include "MessageQueue.h"
 #include "Logger.h"
 #include "Calculations.h"
+#include "MessageQueue.h"
 
 static int location_message_count=0;
 

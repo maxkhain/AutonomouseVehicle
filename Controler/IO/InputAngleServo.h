@@ -6,6 +6,14 @@
 #include "AutonomousEnvironment.h"
 
 
+/**InputAngleServo
+
+@note This module is responsible for the calculation of the angle requered and the input to the servo
+
+@params
+
+
+*/
 static Servo myservoAngle(SERVO_ANGLE);
 
 

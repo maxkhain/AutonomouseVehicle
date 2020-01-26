@@ -45,7 +45,7 @@ double Calculations::CalculateSpeed(double distance)
             velocity=max_speed;
     }
     //Logger::Log(" Current speed is: ", velocity);
-    //AutonomousEnvironment::currentStatus.SetCurrentSpeed(velocity);
+    
     return velocity;
 
 }

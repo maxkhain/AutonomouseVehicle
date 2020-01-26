@@ -5,7 +5,14 @@
 #include "Servo.h"
 #include "AutonomousEnvironment.h"
 
+/**InputSpeedServo
 
+@note This module is responsible for the calculation of the speed requered and the input to the servo
+
+@params
+
+
+*/
 
 static Servo myservoSpeed(SERVO_SPEED);
 
